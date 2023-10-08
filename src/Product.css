@@ -1,0 +1,78 @@
+.product-card {
+    width: 312px;
+}
+
+.image-section {
+    background: #FFFFFF;
+    border: 1px solid #FEABAC;
+    border-radius: 32px;
+    width: 312px;
+    height: 312px;
+}
+
+.product-image {
+    padding: 28px;
+    border-radius: 32px;
+}
+
+.product-image img {
+    border-radius: 18px;
+    width: 256px;
+    height: 256px;
+}
+
+.product-vendor {
+    margin-top: 31px;
+
+}
+
+.product-vendor,
+.product-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.85px;
+    color: #1B1B1B;
+
+}
+
+.product-price {
+    margin-top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 101% */
+
+    text-align: center;
+    letter-spacing: 0.65px;
+    color: #FEABAC;
+}
+
+.product-buy-now {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-buy-now button {
+    width: 153.01px;
+    height: 46.13px;
+    background: #1B1B1B;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
